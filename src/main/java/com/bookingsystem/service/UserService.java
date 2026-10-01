@@ -1,7 +1,7 @@
-package Service;
+package com.bookingsystem.service;
 
-import Repository.UserRepository;
-import org.apache.catalina.User;
+import com.bookingsystem.model.User;
+import com.bookingsystem.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

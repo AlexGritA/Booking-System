@@ -1,7 +1,7 @@
-package Controller;
+package com.bookingsystem.controller;
 
-import Service.UserService;
-import org.apache.catalina.User;
+import com.bookingsystem.model.User;
+import com.bookingsystem.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
